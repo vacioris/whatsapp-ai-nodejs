@@ -24,6 +24,28 @@ To install WhatsApp AI Lite, follow these steps:
 
 ```npm install axios```
 
+IF NPM < 14.0 run
+Install NVM (Node Version Manager)
+
+```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash```
+Load NVM in Current Terminal
+
+```source ~/.nvm/nvm.sh```
+(Close/reopen your terminal if nvm isn't recognized afterward.)
+
+Install Node.js v22 (LTS)
+
+```nvm install 22```
+Verify Versions
+
+```node -v ``` # v22.x.x
+```npm -v```   # 10.x.x
+Install Puppeteer
+
+```npm install puppeteer```
+
+
+
 - **2. Navigate to the puppeteer directory and install the required dependencies**:
 
 ```cd ./node_modules/puppeteer```
